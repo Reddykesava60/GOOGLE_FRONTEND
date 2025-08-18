@@ -1,0 +1,160 @@
+.gs {
+    color: blue;
+    font-size: 2pc;
+}
+
+.gis {
+    color: blueviolet;
+    font-size: 2pc;
+}
+
+.gas {
+    color: red;
+    font-size: 2pc;
+}
+
+.nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.serchbox {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.input {
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 25pc;
+    height: 45px;
+    margin: 3px;
+}
+
+.button {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 7px;
+    width: 10pc;
+}
+
+.button:hover,
+.IFL:hover {
+    zoom: 0.99;
+}
+
+
+.c1 {
+    color: red;
+}
+
+.c2 {
+    color: orange;
+}
+
+.c3 {
+    color: blueviolet;
+}
+
+.c4 {
+    color: green;
+}
+
+.c5 {
+    color: blue;
+}
+
+p {
+
+    text-align: center;
+    font-size: 5pc;
+    padding-right: 5pc;
+    margin-bottom: 5px;
+
+}
+
+.IFL {
+
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    margin-right: 12pc;
+    border-radius: 20px;
+    padding: 2px;
+    text-align: center;
+    width: 10pc;
+    scale: 2;
+}
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    /* Add a pointer to indicate it's clickable */
+}
+
+.menu {
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    opacity: 0.33;
+}
+
+.dots {
+    display: flex;
+    margin: 2px;
+}
+
+.dot {
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.menu-popup {
+    border: 2px solid;
+    display: none;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 10;
+    border-radius: 5px;
+    z-index: 100;
+    width: 220px;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+/* Show the popup when hovering over the container */
+.menu-container:hover .menu-popup {
+    display: block;
+}
+
+.app {
+    position: relative;
+    display: inline-block;
+    top: 2px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    margin-bottom: 3px;
+}
+
+img {
+    width: 100%;
+    display: block; /* The fix: change the display to block */
+}
+

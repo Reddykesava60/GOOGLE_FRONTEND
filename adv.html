@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goole Advance search</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <form action="https://www.google.com/search" method="get">
+        <div class="nav">
+            <a href="img.html" class="gis">Image Search</a>
+            <a href="index.html" class="gs">Google Search</a>
+        </div>
+        <h2 style="color: red;">Advance Search</h2>
+        <div class="searchbox">
+            <label>
+                All these words:
+                <input type="text" name="as_q">
+              </label>
+              <br><br>
+              <label>
+                This exact word or phrase:
+                <input type="text" name="as_epq">
+              </label>
+              <br><br>
+              <label>
+                Any of these words:
+                <input type="text" name="as_oq">
+              </label>
+              <br><br>
+              <label>
+                None of these words:
+                <input type="text" name="as_eq">
+              </label>
+              <br><br>
+              <!-- <input type="hidden" value="asch"> -->
+            <input class="button"  type="submit" value="Advance Search">
+        </div>
+    </form>
+</body>
+
+</html>
