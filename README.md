@@ -2,7 +2,8 @@
 
 A simple front-end clone of Google’s Search, Image Search, and Advanced Search pages — built using **HTML and CSS only**.
 
-This project replicates the core look, layout, and basic behavior of Google’s interface as part of the **CS50W “Search” Project**.
+This project replicates the core look, layout, and basic behavior of Google’s interface.
+
 
 ---
 
