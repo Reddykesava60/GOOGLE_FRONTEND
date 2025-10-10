@@ -19,7 +19,6 @@ This project replicates the core look, layout, and basic behavior of Google’s 
 | `img.html` | Google Image Search page |
 | `adv.html` | Google Advanced Search page |
 | `style.css` | Common stylesheet for all pages |
-| `mail.webp`, `yt.jpg` | Sample assets used for visuals |
 
 ---
 
